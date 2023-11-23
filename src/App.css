@@ -1,26 +1,94 @@
-.card-body{
+.card{
   direction: rtl;
-
 
 }
 
-.type{
+.pro{
+  direction: rtl;
+  border-right: solid #92d8db;
+  border-width: 0 7px;
+}
 
+.pro button{
+  border: solid #92d8db;
+  border-width: 1px;
+  color: #92d8db;
+
+}
+.camp{
+  direction: rtl;
+  border-right: solid rgb(128, 0, 255);
+  border-width: 0 7px;
+
+}
+
+.camp button{
+  color: #aaadf5;
+  border: solid rgb(128, 0, 255);
+  border-width: 1px;
+
+}
+
+.card-body{
+
+}
+
+.flex{
+  display: flex;
+  
+}
+.red{
+  
+  .pro{
+    direction: rtl;
+    border-right: solid #9f9f9f;
+    border-width: 0 7px;
+  }
+
+  .pro button{
+    border: solid #bebebe;
+    border-width: 1px;
+    color: #b7b9b9;
+  
+  }
+  
 }
 
 .down-info{
   display: flex;
-  width: 50vw;  
-
+  flex-direction: column;
+  width: 19vw;
+  gap: 10px;
 
 }
 
 .cont{
+  display: flex;
+  flex-wrap: wrap;
 
 
 }
 
 .d{
   display: flex;
+  height: 90vh;
+
+
+}
+
+.iu{
+  display: flex;
+
+
+}
+
+.maincont{
+  display: flex;
   flex-wrap: wrap;
+  width: 95vw;
+  height: 100vh;
+  gap: 20px;
+  
+
+  
 }

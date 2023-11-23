@@ -1,10 +1,15 @@
 import React from 'react'
-
+import '../App.css'
+import App from '../App'
 function Card(props) {
   return (
-    <div className='grid'>
-        <div className='card col-3 '>
-            <div className='card-body '>
+    <>
+        <div className={props.type == "مغلق" ? "red":"blue"}>
+
+
+        <div className={props.type == "معسكر" ? "camp card m-3":"pro card m-3"}>
+            <div className='card-body'>
+
                 <div>
                     <h5>{props.type}</h5>
                     <h4>{props.name}</h4>
@@ -13,9 +18,18 @@ function Card(props) {
                     <p>{props.city}</p>
                     <p>يبدا في: {props.time} </p>
                 </div>
-            </div>
-        </div>
+
+                <div>
+                    <button className='btn'>التفاصيل</button>
+                </div>
+
+
+           
+     </div>
+
     </div>
+    </div>
+    </>
   )
 }
 
