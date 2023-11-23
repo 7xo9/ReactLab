@@ -8,6 +8,7 @@ function Card(props) {
 
 
         <div className={props.type == "معسكر" ? "camp card m-3":"pro card m-3"}>
+            
             <div className='card-body'>
 
                 <div>

@@ -7,6 +7,7 @@
   direction: rtl;
   border-right: solid #92d8db;
   border-width: 0 7px;
+
 }
 
 .pro button{
@@ -74,6 +75,7 @@
   height: 90vh;
 
 
+
 }
 
 .iu{
@@ -83,12 +85,79 @@
 }
 
 .maincont{
+  margin-top: 100px;
   display: flex;
   flex-wrap: wrap;
   width: 95vw;
   height: 100vh;
   gap: 20px;
+  justify-content: center;
   
 
   
+}
+
+/* Nav */
+.thesing{
+  display: flex;
+  justify-content: start;
+  width: 40vw;
+  height: 10vh;
+  align-items: center;
+}
+
+.thesing h2{
+  color: white;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.thesing h2:hover{
+  color: aqua;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4f3797;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: aqua;
+}
+
+.nave{
+  position: absolute;
+  width: 100vw;
+}
+
+/* Footer */
+
+.fot{
+  display: flex;
+  width: 100vw;
+  background-color: #4f3797;
+  height: 5vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+
+
 }
