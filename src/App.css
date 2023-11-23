@@ -1,0 +1,26 @@
+.card-body{
+  direction: rtl;
+
+
+}
+
+.type{
+
+}
+
+.down-info{
+  display: flex;
+  width: 50vw;  
+
+
+}
+
+.cont{
+
+
+}
+
+.d{
+  display: flex;
+  flex-wrap: wrap;
+}
