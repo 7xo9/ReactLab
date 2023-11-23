@@ -8,7 +8,7 @@ function CardContainer(props) {
         <div  className=''>
 
 
-            <Card type={props.type} name ={props.name} city={props.city} time={props.time}  />
+            <Card type={props.type} name ={props.name} city={props.city} time={props.time}  stat={props.stat} />
        </div>
 
     </div>

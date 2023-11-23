@@ -52,6 +52,20 @@
     color: #b7b9b9;
   
   }
+
+  .camp{
+    direction: rtl;
+    border-right: solid #bebebe;
+    border-width: 0 7px;
+  
+  }
+  
+  .camp button{
+    color: #bebebe;
+    border: solid #bebebe;
+    border-width: 1px;
+  
+  }
   
 }
 

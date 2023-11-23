@@ -4,11 +4,11 @@ import App from '../App'
 function Card(props) {
   return (
     <>
-        <div className={props.type == "مغلق" ? "red":"blue"}>
+        <div className={props.stat == "مغلق" ? "red":"blue"}>
 
 
         <div className={props.type == "معسكر" ? "camp card m-3":"pro card m-3"}>
-            
+
             <div className='card-body'>
 
                 <div>
@@ -21,7 +21,7 @@ function Card(props) {
                 </div>
 
                 <div>
-                    <button className='btn'>التفاصيل</button>
+                    <button className='btn'>{props.stat}</button>
                 </div>
 
 
