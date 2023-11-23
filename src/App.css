@@ -151,12 +151,13 @@ li a:hover {
 
 .fot{
   display: flex;
-  width: 100vw;
+  width: 105vw;
   background-color: #4f3797;
   height: 5vh;
   align-items: center;
   justify-content: center;
   color: white;
+  overflow: hidden;
   position: relative;
 
 
